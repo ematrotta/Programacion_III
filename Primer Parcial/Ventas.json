@@ -1,0 +1,82 @@
+[
+    {
+        "_nombre": "mc doble cheddar",
+        "_mail": "elias@gmail.com",
+        "_tipo": "doble",
+        "_aderezo": "mayonesa",
+        "_fecha": {
+            "date": "2023-06-07 14:01:51.878062",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_cantidad": 2,
+        "_nroPedido": 1,
+        "_id": 1,
+        "_importeFinal": 5600,
+        "_descuento": 0
+    },
+    {
+        "_nombre": "mc doble cheddar",
+        "_mail": "emanuel@gmail.com",
+        "_tipo": "doble",
+        "_aderezo": "mayonesa",
+        "_fecha": {
+            "date": "2023-06-08 14:02:42.545950",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_cantidad": 1,
+        "_nroPedido": 2,
+        "_id": 2,
+        "_importeFinal": 2800,
+        "_descuento": 0
+    },
+    {
+        "_nombre": "mc flurry",
+        "_mail": "emanuel@gmail.com",
+        "_tipo": "simple",
+        "_aderezo": "ketchup",
+        "_fecha": {
+            "date": "2023-06-09 09:57:09.717931",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_cantidad": 1,
+        "_nroPedido": 3,
+        "_id": 3,
+        "_importeFinal": 2250,
+        "_descuento": 250
+    },
+    {
+        "_nombre": "cheeseburger",
+        "_mail": "elias@gmail.com",
+        "_tipo": "simple",
+        "_aderezo": "mayonesa",
+        "_fecha": {
+            "date": "2023-06-26 16:49:15.632443",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_cantidad": 1,
+        "_nroPedido": 4,
+        "_id": 4,
+        "_importeFinal": 2000,
+        "_descuento": 0
+    },
+    {
+        "_nombre": "cheeseburger",
+        "_mail": "elias@gmail.com",
+        "_tipo": "simple",
+        "_aderezo": "mayonesa",
+        "_fecha": {
+            "date": "2023-06-26 16:50:40.673933",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_cantidad": 1,
+        "_nroPedido": 5,
+        "_id": 5,
+        "_importeFinal": 1800,
+        "_descuento": 200
+    }
+]

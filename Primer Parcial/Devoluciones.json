@@ -1,0 +1,86 @@
+[
+    {
+        "_id": 1,
+        "_idHamburguesa": 1,
+        "_idCupon": 1,
+        "_fechaDevolucion": {
+            "date": "2023-06-09 09:43:58.633547",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_mailUsuario": "emanuel@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    },
+    {
+        "_id": 2,
+        "_idHamburguesa": 1,
+        "_idCupon": 2,
+        "_fechaDevolucion": {
+            "date": "2023-06-09 09:51:11.180029",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_mailUsuario": "emanuel@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    },
+    {
+        "_id": 3,
+        "_idHamburguesa": 1,
+        "_idCupon": 1,
+        "_fechaDevolucion": {
+            "date": "2023-06-09 09:53:12.099050",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_mailUsuario": "emanuel@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    },
+    {
+        "_id": 4,
+        "_idHamburguesa": 1,
+        "_idCupon": 2,
+        "_fechaDevolucion": {
+            "date": "2023-06-09 09:53:45.030001",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_mailUsuario": "emanuel@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    },
+    {
+        "_id": 5,
+        "_idHamburguesa": 1,
+        "_idCupon": 1,
+        "_fechaDevolucion": {
+            "date": "2023-06-09 09:55:54.837171",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_mailUsuario": "emanuel@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    },
+    {
+        "_id": 6,
+        "_idHamburguesa": 1,
+        "_idCupon": 2,
+        "_fechaDevolucion": {
+            "date": "2023-06-09 09:56:02.839171",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_mailUsuario": "emanuel@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    },
+    {
+        "_id": 7,
+        "_idHamburguesa": 4,
+        "_idCupon": 3,
+        "_fechaDevolucion": {
+            "date": "2023-06-26 16:49:30.701397",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_mailUsuario": "elias@gmail.com",
+        "_motivoDevolucion": "No ten\u00eda los aderezos correctos"
+    }
+]

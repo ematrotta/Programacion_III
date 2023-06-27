@@ -1,0 +1,182 @@
+[
+    {
+        "_nroPedido": 1,
+        "_idVenta": 4319,
+        "_fechaCompra": {
+            "date": "2023-05-14 21:48:53.609905",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4400,
+        "_idPizza": 9921,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 2,
+        "_idVenta": 4320,
+        "_fechaCompra": {
+            "date": "2023-05-14 21:52:22.118233",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4400,
+        "_idPizza": 9921,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 3,
+        "_idVenta": 4321,
+        "_fechaCompra": {
+            "date": "2023-05-14 21:56:10.044453",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 4,
+        "_idVenta": 4322,
+        "_fechaCompra": {
+            "date": "2023-05-14 21:58:33.569088",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 5,
+        "_idVenta": 4323,
+        "_fechaCompra": {
+            "date": "2023-05-14 22:00:05.111498",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 6,
+        "_idVenta": 4324,
+        "_fechaCompra": {
+            "date": "2023-05-14 22:00:57.393844",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 7,
+        "_idVenta": 4325,
+        "_fechaCompra": {
+            "date": "2023-05-14 22:02:28.746810",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 8,
+        "_idVenta": 4326,
+        "_fechaCompra": {
+            "date": "2023-05-14 22:04:06.222429",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4402,
+        "_idPizza": 9920,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 9,
+        "_idVenta": 4327,
+        "_fechaCompra": {
+            "date": "2023-05-15 02:51:57.173657",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4402,
+        "_idPizza": 9920,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 10,
+        "_idVenta": 4328,
+        "_fechaCompra": {
+            "date": "2023-05-15 16:00:22.624456",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4402,
+        "_idPizza": 9920,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 11,
+        "_idVenta": 4329,
+        "_fechaCompra": {
+            "date": "2023-05-15 16:01:32.755533",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4402,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 12,
+        "_idVenta": 4330,
+        "_fechaCompra": {
+            "date": "2023-05-15 16:28:08.865420",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 13,
+        "_idVenta": 4331,
+        "_fechaCompra": {
+            "date": "2023-05-15 19:45:10.329252",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 14,
+        "_idVenta": 4332,
+        "_fechaCompra": {
+            "date": "2023-05-15 19:45:21.636990",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9922,
+        "_cantidadPizza": 1
+    },
+    {
+        "_nroPedido": 15,
+        "_idVenta": 4333,
+        "_fechaCompra": {
+            "date": "2023-05-15 19:47:06.226687",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_idUsuario": 4401,
+        "_idPizza": 9923,
+        "_cantidadPizza": 3
+    }
+]

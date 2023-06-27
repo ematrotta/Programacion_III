@@ -1,0 +1,34 @@
+[
+    {
+        "_nombre": "mc doble cheddar",
+        "_aderezo": "mostaza",
+        "_tipo": "doble",
+        "_id": 1,
+        "_precio": 2800,
+        "_cantidad": 9
+    },
+    {
+        "_nombre": "big mc",
+        "_aderezo": "ketchup",
+        "_tipo": "simple",
+        "_id": 2,
+        "_precio": 2500,
+        "_cantidad": 2
+    },
+    {
+        "_nombre": "double quarter pounder",
+        "_aderezo": "mayonesa",
+        "_tipo": "doble",
+        "_id": 3,
+        "_precio": 3000,
+        "_cantidad": 7
+    },
+    {
+        "_nombre": "cheeseburger",
+        "_aderezo": "mostaza",
+        "_tipo": "simple",
+        "_id": 4,
+        "_precio": 2000,
+        "_cantidad": 5
+    }
+]

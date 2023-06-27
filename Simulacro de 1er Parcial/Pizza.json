@@ -1,0 +1,30 @@
+[
+    {
+        "_sabor": "muzzarella",
+        "_precio": 150,
+        "_tipo": "piedra",
+        "_cantidad": 6,
+        "_id": 9920
+    },
+    {
+        "_sabor": "palmitos",
+        "_precio": 200,
+        "_tipo": "molde",
+        "_cantidad": 0,
+        "_id": 9921
+    },
+    {
+        "_sabor": "palmitos",
+        "_precio": 300,
+        "_tipo": "piedra",
+        "_cantidad": 8,
+        "_id": 9922
+    },
+    {
+        "_sabor": "peperoni",
+        "_precio": 500,
+        "_tipo": "piedra",
+        "_cantidad": 7,
+        "_id": 9923
+    }
+]

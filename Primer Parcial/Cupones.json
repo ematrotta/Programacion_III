@@ -1,0 +1,35 @@
+[
+    {
+        "_id": 1,
+        "_fechaCupon": {
+            "date": "2023-06-09 09:55:54.837171",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_porcentaje": 0.1,
+        "_mailCliente": "emanuel@gmail.com",
+        "_estado": false
+    },
+    {
+        "_id": 2,
+        "_fechaCupon": {
+            "date": "2023-06-05 09:56:02.839171",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_porcentaje": 0.1,
+        "_mailCliente": "emanuel@gmail.com",
+        "_estado": true
+    },
+    {
+        "_id": 3,
+        "_fechaCupon": {
+            "date": "2023-06-26 16:49:30.701397",
+            "timezone_type": 3,
+            "timezone": "Europe\/Berlin"
+        },
+        "_porcentaje": 0.1,
+        "_mailCliente": "elias@gmail.com",
+        "_estado": false
+    }
+]
