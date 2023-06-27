@@ -1,0 +1,749 @@
+{
+	"info": {
+		"_postman_id": "c50f8a5f-80df-46b9-b1db-52618015ca0d",
+		"name": "2do Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26594393"
+	},
+	"item": [
+		{
+			"name": "Actions",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "mail",
+									"value": "emanueltrotta@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "emanuel1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "ObtenerUno",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/usuarios/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"usuarios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerTodos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CargarUno",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "mail",
+									"value": "elias@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "elias123",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "cliente",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "elias",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ModificarUno",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "emanuel1234",
+									"type": "text"
+								},
+								{
+									"key": "mail",
+									"value": "emanueltrotta@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/usuarios/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"usuarios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarUno",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/usuarios/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"usuarios",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPorMonedaComprada",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/usuarios/moneda?simbolo=usdt",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"usuarios",
+								"moneda"
+							],
+							"query": [
+								{
+									"key": "simbolo",
+									"value": "usdt"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Moneda",
+			"item": [
+				{
+					"name": "ObtenerUno",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas/btc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas",
+								"btc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerTodos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CargarUno",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nombre",
+									"value": "Binance Coin",
+									"type": "text"
+								},
+								{
+									"key": "simbolo",
+									"value": "BNB",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "suiza",
+									"type": "text"
+								},
+								{
+									"key": "precio",
+									"value": "236.99",
+									"type": "text"
+								},
+								{
+									"key": "imagen",
+									"type": "file",
+									"src": "/C:/Users/etrotta/Desktop/61cdb6a7c5951.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ModificarUno",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "suizo",
+									"type": "text"
+								},
+								{
+									"key": "precio",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas/eth",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas",
+								"eth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarUno",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas/eth",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas",
+								"eth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPorNacionalidad",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas/nacionalidad?nacionalidad=suiza",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas",
+								"nacionalidad"
+							],
+							"query": [
+								{
+									"key": "nacionalidad",
+									"value": "suiza"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DescargarTodasCSV",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/monedas/descargar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"monedas",
+								"descargar"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Venta",
+			"item": [
+				{
+					"name": "ObtenerUno",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/ventas/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"ventas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerTodos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/ventas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"ventas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CargarUno",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "simbolCripto",
+									"value": "eth",
+									"type": "text"
+								},
+								{
+									"key": "cantidad",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "imagen",
+									"type": "file",
+									"src": "/C:/Users/etrotta/Desktop/tether-usdt-cryptocurrency-coins-usdt-logo-gold-coin-decentralized-digital-money-concept-free-vector.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/ventas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"ventas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ModificarUno",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "simbolCripto",
+									"value": "usdt",
+									"type": "text"
+								},
+								{
+									"key": "cantidad",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/ventas/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"ventas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarUno",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/ventas/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"ventas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPorNacionalidadYFecha",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/Segundo Parcial/ventas/nacionalidad?nacionalidad=aleman&desde=&hasta=25/06/2023",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Segundo Parcial",
+								"ventas",
+								"nacionalidad"
+							],
+							"query": [
+								{
+									"key": "nacionalidad",
+									"value": "aleman"
+								},
+								{
+									"key": "desde",
+									"value": ""
+								},
+								{
+									"key": "hasta",
+									"value": "25/06/2023"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Token",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2ODc3MzI3MzUsImV4cCI6MTY4NzczODczNSwiYXVkIjoiYTMxNWIzODBhYThlYmU3MTA3NTkwMGU1NTQyN2RkMmYwM2FhOTA2MiIsImRhdGEiOnsiX2lkVXN1YXJpbyI6MSwiX21haWwiOiJlbWFudWVsQGdtYWlsLmNvbSIsIl9ub21icmUiOiJFbWFudWVsIiwiX3Bhc3N3b3JkIjoiJDJ5JDEwJEN5VER2VUxJTzNGYVdOQldmWmJMUXVOSzBYYmlxUEVhMktleFZFZVdOWjE1YURQVUlPZ1RtIiwiX3RpcG8iOiJjbGllbnRlIiwiX2ZlY2hhQWx0YSI6eyJkYXRlIjoiMjAyMy0wNi0yNSAxOToxNTo1Ni4wMDAwMDAiLCJ0aW1lem9uZV90eXBlIjozLCJ0aW1lem9uZSI6IkFtZXJpY2FcL0FyZ2VudGluYVwvQnVlbm9zX0FpcmVzIn0sIl9mZWNoYUJhamEiOm51bGx9LCJhcHAiOiJUUF9Db21hbmRhIn0.KzaAnIuBrNKxd7WifYxuLbvM2rw4fjAkTzeY6-8T0WE"
+		}
+	]
+}

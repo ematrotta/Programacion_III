@@ -1,0 +1,364 @@
+{
+	"info": {
+		"_postman_id": "a1b39d00-64fe-4568-97fc-2b1b96ddba55",
+		"name": "1er Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26594393"
+	},
+	"item": [
+		{
+			"name": "HamburguesaCarga",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Cheeseburger",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "simple",
+							"type": "text"
+						},
+						{
+							"key": "aderezo",
+							"value": "mostaza",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/etrotta/Desktop/DC_201907_0005_BigMac_832x472_1-4-product-tile-desktop.jpg"
+						},
+						{
+							"key": "archivoPhp",
+							"value": "hamburguesacarga",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HamburguesaConsultar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "double quarter pounder",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "simple",
+							"type": "text"
+						},
+						{
+							"key": "archivoPhp",
+							"value": "HamburguesaConsultar",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AltaVenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "archivoPhp",
+							"value": "AltaVenta",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "cheeseburger",
+							"type": "text"
+						},
+						{
+							"key": "mailUsuario",
+							"value": "elias@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "simple",
+							"type": "text"
+						},
+						{
+							"key": "aderezo",
+							"value": "mayonesa",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/etrotta/Desktop/DC_201907_0005_BigMac_832x472_1-4-product-tile-desktop.jpg"
+						},
+						{
+							"key": "nroCupon",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultasVentas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php?archivoPhp=ConsultasVentas&fechaInicial=01/06/2023&fechaFinal=08/06/2023&tipo_listado=c&datoAdicional=emanuel@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "archivoPhp",
+							"value": "ConsultasVentas"
+						},
+						{
+							"key": "fechaInicial",
+							"value": "01/06/2023"
+						},
+						{
+							"key": "fechaFinal",
+							"value": "08/06/2023"
+						},
+						{
+							"key": "tipo_listado",
+							"value": "c"
+						},
+						{
+							"key": "datoAdicional",
+							"value": "emanuel@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ModificarVenta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php?archivoPhp=modificarventa&nroPedido=3&mail=emanuel@gmail.com&nombre=Mc flurry&tipo=simple&aderezo=ketchup&cantidad=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "archivoPhp",
+							"value": "modificarventa"
+						},
+						{
+							"key": "nroPedido",
+							"value": "3"
+						},
+						{
+							"key": "mail",
+							"value": "emanuel@gmail.com"
+						},
+						{
+							"key": "nombre",
+							"value": "Mc flurry"
+						},
+						{
+							"key": "tipo",
+							"value": "simple"
+						},
+						{
+							"key": "aderezo",
+							"value": "ketchup"
+						},
+						{
+							"key": "cantidad",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BorrarVenta",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php?nroPedido=4&archivoPhp=BorrarVenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "nroPedido",
+							"value": "4"
+						},
+						{
+							"key": "archivoPhp",
+							"value": "BorrarVenta"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DevolverHamburguesa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nroPedido",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "causaDevolucion",
+							"value": "No tenía los aderezos correctos",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/etrotta/Desktop/DC_201907_0005_BigMac_832x472_1-4-product-tile-desktop.jpg"
+						},
+						{
+							"key": "archivoPhp",
+							"value": "devolverhamburguesa",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultasDevoluciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Primer%20Parcial/index.php?archivoPhp=consultasdevoluciones&tipo_listado=c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Primer%20Parcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "archivoPhp",
+							"value": "consultasdevoluciones"
+						},
+						{
+							"key": "tipo_listado",
+							"value": "c"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
